@@ -1,3 +1,4 @@
 FROM nginx
-RUN apt update -y
+RUN apt install git -y
+RUN apt-get update -y
 
